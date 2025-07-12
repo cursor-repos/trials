@@ -1,4 +1,4 @@
-package com.example.javas.streams;
+package com.javas.streams;
 
 public class Tests {
 

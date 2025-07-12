@@ -1,4 +1,4 @@
-package com.java.async;
+package com.javas.async;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-package com.example.javas.staticTest;
+package com.javas.staticTest;
 
 public class OuterTest {
 
