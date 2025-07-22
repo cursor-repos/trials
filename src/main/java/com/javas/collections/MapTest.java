@@ -1,5 +1,7 @@
 package com.javas.collections;
 
+import com.javas.json.Employee;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -11,7 +13,7 @@ public class MapTest {
         Map<String, String> ls1 = Map.of("k1", "key1", "k2", "key2", "k3", "key3");
         Map<String, String> ls2 = new TreeMap<>(ls1);
 
-        ls1.put("k4", "key4")
+        ls1.put("k4", "key4");
         for (Entry l : ls1.entrySet()) {
             System.out.println(l.toString());
         }
@@ -19,5 +21,6 @@ public class MapTest {
         for (Entry l : ls2.entrySet()) {
             System.out.println(l.toString());
         }
+
     }
 }
